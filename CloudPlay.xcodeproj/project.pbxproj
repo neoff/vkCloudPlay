@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5265DB0415F897D600FDE9CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5265DB0315F897D600FDE9CB /* Cocoa.framework */; };
+		5265DB0E15F897D600FDE9CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5265DB0C15F897D600FDE9CB /* InfoPlist.strings */; };
+		5265DB1015F897D600FDE9CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB0F15F897D600FDE9CB /* main.m */; };
+		5265DB1415F897D600FDE9CB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5265DB1215F897D600FDE9CB /* Credits.rtf */; };
+		5265DB1715F897D600FDE9CB /* vkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB1615F897D600FDE9CB /* vkAppDelegate.m */; };
+		5265DB1A15F897D600FDE9CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5265DB1815F897D600FDE9CB /* MainMenu.xib */; };
+		5265DB2215F897D600FDE9CB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5265DB2115F897D600FDE9CB /* SenTestingKit.framework */; };
+		5265DB2315F897D600FDE9CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5265DB0315F897D600FDE9CB /* Cocoa.framework */; };
+		5265DB2B15F897D600FDE9CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5265DB2915F897D600FDE9CB /* InfoPlist.strings */; };
+		5265DB2E15F897D600FDE9CB /* CloudPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB2D15F897D600FDE9CB /* CloudPlayTests.m */; };
+		5265DB3F15F8992C00FDE9CB /* vkWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB3D15F8992C00FDE9CB /* vkWindowController.m */; };
+		5265DB4015F8992C00FDE9CB /* vkWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5265DB3E15F8992C00FDE9CB /* vkWindowController.xib */; };
+		5265DB4415F8996C00FDE9CB /* vkSplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB4215F8996C00FDE9CB /* vkSplashController.m */; };
+		5265DB4515F8996C00FDE9CB /* vkSplashController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5265DB4315F8996C00FDE9CB /* vkSplashController.xib */; };
+		5265DB4815F899C700FDE9CB /* vkNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB4715F899C700FDE9CB /* vkNetworkController.m */; };
+		5265DB4B15F8A3E300FDE9CB /* vkModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB4A15F8A3E300FDE9CB /* vkModels.m */; };
+		5265DB5415F8E0F200FDE9CB /* vkCloudPlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5265DB5215F8E0F200FDE9CB /* vkCloudPlay.xcdatamodeld */; };
+		52C3A7DC1601E26F00C03113 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C3A7DB1601E26F00C03113 /* AVFoundation.framework */; };
+		52C3A7DE1601E28900C03113 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C3A7DD1601E28900C03113 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5265DB2415F897D600FDE9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5265DAF615F897D600FDE9CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5265DAFE15F897D600FDE9CB;
+			remoteInfo = CloudPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5265DAFF15F897D600FDE9CB /* CloudPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5265DB0315F897D600FDE9CB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5265DB0615F897D600FDE9CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5265DB0715F897D600FDE9CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5265DB0815F897D600FDE9CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5265DB0B15F897D600FDE9CB /* CloudPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudPlay-Info.plist"; sourceTree = "<group>"; };
+		5265DB0D15F897D600FDE9CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5265DB0F15F897D600FDE9CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5265DB1115F897D600FDE9CB /* CloudPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudPlay-Prefix.pch"; sourceTree = "<group>"; };
+		5265DB1315F897D600FDE9CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5265DB1515F897D600FDE9CB /* vkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vkAppDelegate.h; sourceTree = "<group>"; };
+		5265DB1615F897D600FDE9CB /* vkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vkAppDelegate.m; sourceTree = "<group>"; };
+		5265DB1915F897D600FDE9CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5265DB2015F897D600FDE9CB /* CloudPlayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudPlayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5265DB2115F897D600FDE9CB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5265DB2815F897D600FDE9CB /* CloudPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudPlayTests-Info.plist"; sourceTree = "<group>"; };
+		5265DB2A15F897D600FDE9CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5265DB2C15F897D600FDE9CB /* CloudPlayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudPlayTests.h; sourceTree = "<group>"; };
+		5265DB2D15F897D600FDE9CB /* CloudPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudPlayTests.m; sourceTree = "<group>"; };
+		5265DB3715F897EA00FDE9CB /* CloudPlay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudPlay.entitlements; sourceTree = "<group>"; };
+		5265DB3C15F8992C00FDE9CB /* vkWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vkWindowController.h; sourceTree = "<group>"; };
+		5265DB3D15F8992C00FDE9CB /* vkWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vkWindowController.m; sourceTree = "<group>"; };
+		5265DB3E15F8992C00FDE9CB /* vkWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vkWindowController.xib; sourceTree = "<group>"; };
+		5265DB4115F8996C00FDE9CB /* vkSplashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vkSplashController.h; sourceTree = "<group>"; };
+		5265DB4215F8996C00FDE9CB /* vkSplashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vkSplashController.m; sourceTree = "<group>"; };
+		5265DB4315F8996C00FDE9CB /* vkSplashController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vkSplashController.xib; sourceTree = "<group>"; };
+		5265DB4615F899C700FDE9CB /* vkNetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vkNetworkController.h; sourceTree = "<group>"; };
+		5265DB4715F899C700FDE9CB /* vkNetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vkNetworkController.m; sourceTree = "<group>"; };
+		5265DB4915F8A3E300FDE9CB /* vkModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vkModels.h; sourceTree = "<group>"; };
+		5265DB4A15F8A3E300FDE9CB /* vkModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vkModels.m; sourceTree = "<group>"; };
+		5265DB5315F8E0F200FDE9CB /* vkCloudPlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vkCloudPlay.xcdatamodel; sourceTree = "<group>"; };
+		52C3A7DB1601E26F00C03113 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52C3A7DD1601E28900C03113 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5265DAFC15F897D600FDE9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265DB0415F897D600FDE9CB /* Cocoa.framework in Frameworks */,
+				52C3A7DC1601E26F00C03113 /* AVFoundation.framework in Frameworks */,
+				52C3A7DE1601E28900C03113 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5265DB1C15F897D600FDE9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265DB2215F897D600FDE9CB /* SenTestingKit.framework in Frameworks */,
+				5265DB2315F897D600FDE9CB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5265DAF415F897D600FDE9CB = {
+			isa = PBXGroup;
+			children = (
+				5265DB0915F897D600FDE9CB /* CloudPlay */,
+				5265DB2615F897D600FDE9CB /* CloudPlayTests */,
+				5265DB0215F897D600FDE9CB /* Frameworks */,
+				5265DB0015F897D600FDE9CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5265DB0015F897D600FDE9CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5265DAFF15F897D600FDE9CB /* CloudPlay.app */,
+				5265DB2015F897D600FDE9CB /* CloudPlayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5265DB0215F897D600FDE9CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C3A7DD1601E28900C03113 /* WebKit.framework */,
+				52C3A7DB1601E26F00C03113 /* AVFoundation.framework */,
+				5265DB0315F897D600FDE9CB /* Cocoa.framework */,
+				5265DB2115F897D600FDE9CB /* SenTestingKit.framework */,
+				5265DB0515F897D600FDE9CB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5265DB0515F897D600FDE9CB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5265DB0615F897D600FDE9CB /* AppKit.framework */,
+				5265DB0715F897D600FDE9CB /* CoreData.framework */,
+				5265DB0815F897D600FDE9CB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5265DB0915F897D600FDE9CB /* CloudPlay */ = {
+			isa = PBXGroup;
+			children = (
+				5265DB3B15F898DC00FDE9CB /* Views */,
+				5265DB3A15F898D300FDE9CB /* Models */,
+				5265DB3815F898A600FDE9CB /* Controllers */,
+				5265DB3715F897EA00FDE9CB /* CloudPlay.entitlements */,
+				5265DB1515F897D600FDE9CB /* vkAppDelegate.h */,
+				5265DB1615F897D600FDE9CB /* vkAppDelegate.m */,
+				5265DB1815F897D600FDE9CB /* MainMenu.xib */,
+				5265DB0A15F897D600FDE9CB /* Supporting Files */,
+			);
+			path = CloudPlay;
+			sourceTree = "<group>";
+		};
+		5265DB0A15F897D600FDE9CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5265DB0B15F897D600FDE9CB /* CloudPlay-Info.plist */,
+				5265DB0C15F897D600FDE9CB /* InfoPlist.strings */,
+				5265DB0F15F897D600FDE9CB /* main.m */,
+				5265DB1115F897D600FDE9CB /* CloudPlay-Prefix.pch */,
+				5265DB1215F897D600FDE9CB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5265DB2615F897D600FDE9CB /* CloudPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				5265DB2C15F897D600FDE9CB /* CloudPlayTests.h */,
+				5265DB2D15F897D600FDE9CB /* CloudPlayTests.m */,
+				5265DB2715F897D600FDE9CB /* Supporting Files */,
+			);
+			path = CloudPlayTests;
+			sourceTree = "<group>";
+		};
+		5265DB2715F897D600FDE9CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5265DB2815F897D600FDE9CB /* CloudPlayTests-Info.plist */,
+				5265DB2915F897D600FDE9CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5265DB3815F898A600FDE9CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5265DB3C15F8992C00FDE9CB /* vkWindowController.h */,
+				5265DB3D15F8992C00FDE9CB /* vkWindowController.m */,
+				5265DB4115F8996C00FDE9CB /* vkSplashController.h */,
+				5265DB4215F8996C00FDE9CB /* vkSplashController.m */,
+				5265DB4615F899C700FDE9CB /* vkNetworkController.h */,
+				5265DB4715F899C700FDE9CB /* vkNetworkController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5265DB3A15F898D300FDE9CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5265DB4915F8A3E300FDE9CB /* vkModels.h */,
+				5265DB4A15F8A3E300FDE9CB /* vkModels.m */,
+				5265DB5215F8E0F200FDE9CB /* vkCloudPlay.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5265DB3B15F898DC00FDE9CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5265DB3E15F8992C00FDE9CB /* vkWindowController.xib */,
+				5265DB4315F8996C00FDE9CB /* vkSplashController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5265DAFE15F897D600FDE9CB /* CloudPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5265DB3115F897D600FDE9CB /* Build configuration list for PBXNativeTarget "CloudPlay" */;
+			buildPhases = (
+				5265DAFB15F897D600FDE9CB /* Sources */,
+				5265DAFC15F897D600FDE9CB /* Frameworks */,
+				5265DAFD15F897D600FDE9CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudPlay;
+			productName = CloudPlay;
+			productReference = 5265DAFF15F897D600FDE9CB /* CloudPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5265DB1F15F897D600FDE9CB /* CloudPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5265DB3415F897D600FDE9CB /* Build configuration list for PBXNativeTarget "CloudPlayTests" */;
+			buildPhases = (
+				5265DB1B15F897D600FDE9CB /* Sources */,
+				5265DB1C15F897D600FDE9CB /* Frameworks */,
+				5265DB1D15F897D600FDE9CB /* Resources */,
+				5265DB1E15F897D600FDE9CB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5265DB2515F897D600FDE9CB /* PBXTargetDependency */,
+			);
+			name = CloudPlayTests;
+			productName = CloudPlayTests;
+			productReference = 5265DB2015F897D600FDE9CB /* CloudPlayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5265DAF615F897D600FDE9CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = vk;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = varg;
+			};
+			buildConfigurationList = 5265DAF915F897D600FDE9CB /* Build configuration list for PBXProject "CloudPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5265DAF415F897D600FDE9CB;
+			productRefGroup = 5265DB0015F897D600FDE9CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5265DAFE15F897D600FDE9CB /* CloudPlay */,
+				5265DB1F15F897D600FDE9CB /* CloudPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5265DAFD15F897D600FDE9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265DB0E15F897D600FDE9CB /* InfoPlist.strings in Resources */,
+				5265DB1415F897D600FDE9CB /* Credits.rtf in Resources */,
+				5265DB1A15F897D600FDE9CB /* MainMenu.xib in Resources */,
+				5265DB4015F8992C00FDE9CB /* vkWindowController.xib in Resources */,
+				5265DB4515F8996C00FDE9CB /* vkSplashController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5265DB1D15F897D600FDE9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265DB2B15F897D600FDE9CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5265DB1E15F897D600FDE9CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5265DAFB15F897D600FDE9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265DB1015F897D600FDE9CB /* main.m in Sources */,
+				5265DB1715F897D600FDE9CB /* vkAppDelegate.m in Sources */,
+				5265DB3F15F8992C00FDE9CB /* vkWindowController.m in Sources */,
+				5265DB4415F8996C00FDE9CB /* vkSplashController.m in Sources */,
+				5265DB4815F899C700FDE9CB /* vkNetworkController.m in Sources */,
+				5265DB4B15F8A3E300FDE9CB /* vkModels.m in Sources */,
+				5265DB5415F8E0F200FDE9CB /* vkCloudPlay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5265DB1B15F897D600FDE9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5265DB2E15F897D600FDE9CB /* CloudPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5265DB2515F897D600FDE9CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5265DAFE15F897D600FDE9CB /* CloudPlay */;
+			targetProxy = 5265DB2415F897D600FDE9CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5265DB0C15F897D600FDE9CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5265DB0D15F897D600FDE9CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5265DB1215F897D600FDE9CB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5265DB1315F897D600FDE9CB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5265DB1815F897D600FDE9CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5265DB1915F897D600FDE9CB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5265DB2915F897D600FDE9CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5265DB2A15F897D600FDE9CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5265DB2F15F897D600FDE9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5265DB3015F897D600FDE9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5265DB3215F897D600FDE9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CloudPlay/CloudPlay.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudPlay/CloudPlay-Prefix.pch";
+				INFOPLIST_FILE = "CloudPlay/CloudPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5265DB3315F897D600FDE9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CloudPlay/CloudPlay.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudPlay/CloudPlay-Prefix.pch";
+				INFOPLIST_FILE = "CloudPlay/CloudPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5265DB3515F897D600FDE9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CloudPlay.app/Contents/MacOS/CloudPlay";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudPlay/CloudPlay-Prefix.pch";
+				INFOPLIST_FILE = "CloudPlayTests/CloudPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5265DB3615F897D600FDE9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CloudPlay.app/Contents/MacOS/CloudPlay";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudPlay/CloudPlay-Prefix.pch";
+				INFOPLIST_FILE = "CloudPlayTests/CloudPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5265DAF915F897D600FDE9CB /* Build configuration list for PBXProject "CloudPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5265DB2F15F897D600FDE9CB /* Debug */,
+				5265DB3015F897D600FDE9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5265DB3115F897D600FDE9CB /* Build configuration list for PBXNativeTarget "CloudPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5265DB3215F897D600FDE9CB /* Debug */,
+				5265DB3315F897D600FDE9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5265DB3415F897D600FDE9CB /* Build configuration list for PBXNativeTarget "CloudPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5265DB3515F897D600FDE9CB /* Debug */,
+				5265DB3615F897D600FDE9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5265DB5215F8E0F200FDE9CB /* vkCloudPlay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5265DB5315F8E0F200FDE9CB /* vkCloudPlay.xcdatamodel */,
+			);
+			currentVersion = 5265DB5315F8E0F200FDE9CB /* vkCloudPlay.xcdatamodel */;
+			path = vkCloudPlay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5265DAF615F897D600FDE9CB /* Project object */;
+}
